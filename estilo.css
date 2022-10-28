@@ -1,0 +1,136 @@
+body{
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+.usuario{
+	color: #7F7F7F;
+}
+
+div.menu > div{
+	display: inline-block;
+	width: 33%;
+}
+
+table{
+	border-collapse: collapse;
+	width: 90%;
+	margin: 0 auto;
+}
+
+tr{
+	border-bottom: 1px solid #7F7F7F;
+}
+
+td{
+	padding: 10px 10px 0
+}
+
+div.titulo h1{
+	color: blue;
+}
+
+span.material-icons{
+	font-size: 30px;
+	color: blue;
+}
+
+div.actividades{
+	text-align: center;
+}
+
+div.actividades > a{
+	margin: 0 20px;
+}
+
+div.modulo{
+	margin-left: 5px;
+	padding: 5px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.iconos{
+	text-align: right;
+}
+
+#mostrar{
+	color: #7F7F7F;
+}
+
+#borrar{
+	color: #FF0000;
+}
+
+#dwec{
+	background-color: #3CA6A6;
+}
+
+#diz{
+	background-color: #F2E3D5;
+}
+
+#ssif{
+	background-color: #D8FFDB;
+}
+/****************** CSS Crear Actividad ******************/
+div#formulario{
+	
+	width: 600px;
+	padding: 30px;
+	margin:0 auto;
+	margin-top:30px;
+	border-radius: 4px;
+	overflow: hidden;
+	border: 1px solid gray;
+	box-shadow:4px 5px 2px gray;
+}
+div#formulario label{
+	font-size: 1em;
+}
+input{
+	margin-bottom: 30px;
+}
+input[type = "text"]{
+	width: 500px;
+	margin-top:10px;
+}
+textarea#descripcion{
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 500px;
+	height: 200px;
+}
+div#formulario button{
+	float: right; 
+	margin-left: 50px; 
+	margin-top:50px;
+	width: 100px;
+	border-radius:10px;
+	height: 30px;
+	font-size:0.9em;
+	font-family:Arial;
+}
+button#btnAceptar{
+	background-color: green;
+
+}
+button#btnAceptar a:link, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}
+button#btnModificar{
+	background-color: yellow;
+
+}
+button#btnModificar a:link, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}
+button#btnCancelar{
+	background-color: red;
+}
+button#btnCancelar a:link, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}

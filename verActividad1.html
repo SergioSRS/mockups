@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=es dir=ltr>
+
+	<head>
+		<meta charset=utf-8 />
+		<meta name=viewport content='width=device-width, initial-scale=1' />
+		<meta name=author content="juandanielcarvajalmontes.guadalupe@alumnado.fundacionloyola.net" />
+		<meta name=author content="miguelhidalgocastro.guadalupe@alumnado.fundacionloyola.net" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet" />
+		<link rel="stylesheet" href="estilo.css" />
+		<title>Actividades</title>
+	</head>
+	<body>
+		<span class="usuario">usuario@fundacionloyola.es</span>
+		<div class="menu">
+			<div class="titulo">
+				<h1>Actividad 1</h1>
+			</div>
+			<div class="actividades">
+				<a href="#"><span class="material-icons" style="display:none">task</span></a>
+				<a href="#"><span class="material-icons" style="display:none">add</span></a>
+			</div>
+			<div class="iconos">
+				<a href="listarActividades.html"><span class="material-icons">arrow_back</span></a>
+				<span class="material-icons">login</span>
+				<span class="material-icons">question_mark</span>
+			</div>
+		</div>
+		<div id="formulario">
+			<form action="">
+				<label for="nombreActividad" style="font-size: 1.5em; color:blue">Nombre de Actividad: </label><br/>
+				<input type="text" name="nombreActividad" value="Actividad 1">
+				<br/>
+				<label for="descripcion" style="font-size: 1.5em; color:blue" >Descripción: </label>
+				<textarea id="descripcion" name="descripcion"> Texto descripcion Actividad 1</textarea> 
+				<br/>
+				<label for="modulosRelacionados" style="font-size: 1.5em; color:blue">Modulos Relacionados: </label>
+				<br/>
+				<br/>
+				<label><input type="checkbox" id="cbox1" checked>DWEC</label><br/>
+				<label><input type="checkbox" id="cbox2" checked>DIZ</label>
+				<br/>
+				<label><input type="checkbox" id="cbox3">SSIF</label><br/>
+				<label><input type="checkbox" id="cbox4">DWES</label>
+				<br/>
+				<label><input type="checkbox" id="cbox5">Módulo Cinco</label><br/>
+				<label><input type="checkbox" id="cbox6">Módulo Seis</label>
+				<br/>
+			</form>
+		</div>
+	</body>
+</html>
